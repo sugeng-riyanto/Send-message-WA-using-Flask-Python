@@ -9,6 +9,8 @@ app.secret_key = 'your_secret_key_here'
 CLIENT_ID = 'YOUR_CLIENT_ID'
 CLIENT_SECRET = 'YOUR_CLIENT_SECRET'
 PHONE_NUMBER = 'YOUR_WHATSAPP_PHONE_NUMBER'
+APP_KEY = 'YOUR_APP_KEY'  # Replace with your app key
+AUTH_KEY = 'YOUR_AUTH_KEY'  # Replace with your auth key
 
 @app.route('/')
 def index():
